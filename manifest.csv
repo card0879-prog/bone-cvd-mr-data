@@ -1,0 +1,17 @@
+文件名,类型,数据集,文献,来源/编号,祖先,基因组版本,总样本量,病例数,对照数,是否含UKB,范围,备注
+exposure_ukbppp_pqtl.tsv.gz,pQTL,UKB-PPP (Olink),Sun et al. 2023 Nature,Synapse syn51365303,欧洲,GRCh38(hg38),~54219,NA,NA,是(暴露本身),cis ±1Mb,效应等位=ALLELE1;P由LOG10P还原
+exposure_decode_pqtl.tsv.gz,pQTL,deCODE (SomaScan),Ferkingstad et al. 2021 Nat Genet,decode.com/summarydata,欧洲(冰岛),GRCh38(hg38),~35559,NA,NA,否,cis ±1Mb,eaf列为ImpMAF(近似)
+eqtl_eqtlgen.tsv.gz,eQTL,eQTLGen (全血),Võsa et al. 2021 Nat Genet,eqtlgen.org,欧洲,GRCh37(hg19),≤31684,NA,NA,否,cis(显著probe),原始为Zscore;已据eaf+N推beta/se
+eqtl_gtex_artery.tsv.gz,eQTL,GTEx v8 动脉(via eQTL Catalogue),GTEx Consortium 2020 Science;Kerimov 2021 Nat Genet,EBI eQTL Catalogue QTS000015,欧洲为主,GRCh38(hg38),387/213/584,NA,NA,否,cis ±1Mb,3组织:主动脉/冠状/胫;TNFSF11/FGF23/AHSG动脉不表达(无)
+outcome_cad_nikpay2015.tsv.gz,结局(CAD),CARDIoGRAMplusC4D,Nikpay et al. 2015 Nat Genet,GWAS Catalog GCST003116,欧洲,GRCh37(hg19),~184305,60801,123504,否,14基因窗口,无rsid,按chr:pos对齐
+outcome_hf_hermes_shah2020.tsv.gz,结局(HF),HERMES,Shah et al. 2020 Nat Commun,GWAS Catalog GCST009541,欧洲,GRCh38(hg38),~977323,47309,930014,不确定(FinnGen可作干净备份),14基因窗口,harmonised hm_列
+outcome_af_nielsen2018.tsv.gz,结局(AF),AF GWAS,Nielsen et al. 2018 Nat Genet,GWAS Catalog GCST006414,欧洲,GRCh38(hg38),~1030836,60620,970216,是,14基因窗口,含UKB→FinnGen作干净重复
+outcome_cac_kavousi2023.tsv.gz,结局(CAC,定量),CHARGE CAC,Kavousi et al. 2023 Nat Genet,GWAS Catalog GCST90278456,欧洲,GRCh37(hg19),~26909,NA(定量性状),NA,否,14基因窗口,定量CAC评分;每行带n
+outcome_is_ais_gigastroke.tsv.gz,结局(缺血卒中AIS),GIGASTROKE,Mishra et al. 2022 Nature,GWAS Catalog GCST90104540,欧洲,GRCh38(hg38),约1296908,约62100,约1234808,是,14基因窗口,源文件rsid列为空,按chr:pos对齐
+outcome_is_ces_cardioembolic.tsv.gz,结局(卒中亚型CES),GIGASTROKE,Mishra et al. 2022 Nature,GWAS Catalog GCST90104541,欧洲,GRCh37(hg19),NA,约10804,NA,是,14基因窗口,心源性卒中
+outcome_is_las_largeartery.tsv.gz,结局(卒中亚型LAS),GIGASTROKE,Mishra et al. 2022 Nature,GWAS Catalog GCST90104542,欧洲,GRCh37(hg19),NA,约6399,NA,是,14基因窗口,大动脉卒中(CTSK故事关键)
+outcome_is_svs_smallvessel.tsv.gz,结局(卒中亚型SVS),GIGASTROKE,Mishra et al. 2022 Nature,GWAS Catalog GCST90104543,欧洲,GRCh37(hg19),NA,约6811,NA,是,14基因窗口,小血管卒中
+outcome_finngen_r13_chd.tsv.gz,结局(CHD重复),FinnGen R13,FinnGen 2026 (R13, 2026-06-02释放),finngen.fi I9_CHD,芬兰,GRCh38(hg38),NA,NA,NA,否,14基因窗口,芬兰人群单列;effect=alt
+outcome_finngen_r13_hf.tsv.gz,结局(HF重复),FinnGen R13,FinnGen 2026 (R13),finngen.fi I9_HEARTFAIL,芬兰,GRCh38(hg38),NA,NA,NA,否,14基因窗口,芬兰人群单列
+outcome_finngen_r13_af.tsv.gz,结局(AF重复),FinnGen R13,FinnGen 2026 (R13),finngen.fi I9_AF,芬兰,GRCh38(hg38),NA,NA,NA,否,14基因窗口,芬兰人群单列
+outcome_finngen_r13_stroke.tsv.gz,结局(卒中重复),FinnGen R13,FinnGen 2026 (R13),finngen.fi I9_STR,芬兰,GRCh38(hg38),NA,NA,NA,否,14基因窗口,芬兰人群单列
