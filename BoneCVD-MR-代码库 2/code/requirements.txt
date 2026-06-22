@@ -1,0 +1,6 @@
+numpy
+pandas
+scipy
+matplotlib
+pyliftover
+# 进阶层 advanced/ 另需：rpy2（susieR/coloc）；MVMR 需额外 GWAS 输入
